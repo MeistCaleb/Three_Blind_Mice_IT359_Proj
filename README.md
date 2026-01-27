@@ -4,4 +4,4 @@
 - Team Member 1
 - Team Member 2
 
-## Full Porject Idea
+## Full Project Idea
