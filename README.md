@@ -1,4 +1,4 @@
-# New_Repo_IT_359_Project
+# Three Blind Mice IT359 Project
 
 ## Team Members
 - Caleb Meister
