@@ -5,6 +5,31 @@
 - Nathan Sigulas
 - Ryan Garland
 
-## Full Project Idea
-- An Automated IP Scanner.
-  - Will pull from blacklists, geolocations, and reputation scores to determine the risk of a certain IP. 
+## Project Overview
+###An Automated IP Scanner.
+The Automated IP Scanner is a tool that analyzes IP addresses and determines their security risk level. It pulls data from public blacklists, geolocation databases, and reputation services to produce a risk score and classification (e.g., Safe, Suspicious, Malicious). The goal is to help security teams quickly triage IP addresses during investigations or monitoring.
+
+### Core Features
+- Input an IP
+- Pull from:
+	- Blacklists
+	- Geolocation
+	- Reputation Scores
+- Return: 
+	- Risk Score
+	- Classification Label 
+	- Some information about the IP
+	- An explanation on why the IP was flagged
+
+### How AI will be used
+- It will help combine the data being pulled and put it into a single risk score.
+- Help detect patterns.
+- Summarize why the IP was flagged.
+
+### Expected Results
+- A working tool that:
+	- Accepts an IP address 
+	- Queries multiple threat intelligence sources
+	- Produces a risk score and classification
+	- Generates Ai-assisted explanations
+- With the documentation on how we got it to work
