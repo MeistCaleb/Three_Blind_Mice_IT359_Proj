@@ -7,7 +7,7 @@
 
 ## Project Overview
 ###An Automated IP Scanner.
-The Automated IP Scanner is a tool that analyzes IP addresses and determines their security risk level. It pulls data from public blacklists, geolocation databases, and reputation services to produce a risk score and classification (e.g., Safe, Suspicious, Malicious). The goal is to help security teams quickly triage IP addresses during investigations or monitoring.
+This will be a tool that analyzes IP addresses and determines their security risk level. It pulls data from public blacklists, geolocation databases, and reputation services to produce a risk score and classification (e.g., Safe, Suspicious, Malicious). The goal is to help security teams quickly triage IP addresses during investigations or monitoring.
 
 ### Core Features
 - Input an IP
