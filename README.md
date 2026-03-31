@@ -3,7 +3,7 @@
 ## Team Members:
 - Caleb Meister
 - Nathan Sigulas
-- Ryan Garland
+- Ryan Garland 
 
 ## Full Project Idea:
 - An Automated IP Scanner.
