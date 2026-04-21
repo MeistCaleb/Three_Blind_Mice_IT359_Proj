@@ -1,0 +1,18 @@
+"target": "45.153.34.32",
+  "scanned_at": "2026-04-21T10:15:04.687645",
+  "geolocation": {
+    "status": "success",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "regionName": "Limburg",
+    "city": "Eygelshoven",
+    "zip": "6471",
+    "lat": 50.8897,
+    "lon": 6.0563,
+    "timezone": "Europe/Amsterdam",
+    "isp": "Pfcloud UG (haftungsbeschrankt)",
+    "org": "VMHeaven.io",
+    "as": "AS51396 Pfcloud UG",
+    "proxy": false,
+    "hosting": false,
+    "query": "45.153.34.32"
