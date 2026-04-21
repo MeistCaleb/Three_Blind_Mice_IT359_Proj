@@ -1,1 +1,95 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# Python
+# ══════════════════════════════════════════════════════════════════════════════
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
 
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ══════════════════════════════════════════════════════════════════════════════
+# Secrets & API Keys
+# ══════════════════════════════════════════════════════════════════════════════
+.env
+.env.*
+secrets.py
+config.py
+*.key
+*.pem
+*.p12
+*.pfx
+
+# ══════════════════════════════════════════════════════════════════════════════
+# Scan Output
+# ══════════════════════════════════════════════════════════════════════════════
+
+# Nmap output formats
+*.nmap
+*.gnmap
+*.xml
+
+# Masscan output
+masscan_*.txt
+masscan_*.json
+
+# Recon output directories
+recon_*/
+
+# Generic scan dumps
+*.log
+scan_*.txt
+scan_*.json
+
+# ══════════════════════════════════════════════════════════════════════════════
+# OS & Editor Clutter
+# ══════════════════════════════════════════════════════════════════════════════
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# VS Code
+.vscode/
+
+# JetBrains / PyCharm
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+
+# ══════════════════════════════════════════════════════════════════════════════
+# Misc
+# ══════════════════════════════════════════════════════════════════════════════
+*.bak
+*.tmp
+*.orig
