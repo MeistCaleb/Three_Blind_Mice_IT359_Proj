@@ -64,4 +64,43 @@ sudo python3 IP_Recon_Tool.py IPAddr
 ```
  
 ---
+## Configuration
+ 
+Open `ip_recon.py` and update the values at the top of the file:
+ 
+```python
+OPENWEBUI_BASE_URL = "http://your-openwebui-host:8080"
+OPENWEBUI_MODEL    = "your-model-name"
+OPENWEBUI_API_KEY  = "your-openwebui-api-key"
+```
+ 
+### Blacklist API Keys
+ 
+The following services require free API keys. If a key is not set the check is skipped and marked as such in the AI summary.
+ 
+| Service | Environment Variable | Get a free key |
+|---------|---------------------|----------------|
+| AbuseIPDB | `ABUSEIPDB_KEY` | [abuseipdb.com](https://www.abuseipdb.com) |
+| VirusTotal | `VIRUSTOTAL_KEY` | [virustotal.com](https://www.virustotal.com) |
+| Shodan | `SHODAN_KEY` | [account.shodan.io](https://account.shodan.io) |
+ 
+> **StopForumSpam** and **Spamhaus** require no API key and will always run automatically.
+ 
+**Step 4 — Set your API keys**
+ 
+Export them in your shell before running the tool:
+ 
+```bash
+export ABUSEIPDB_KEY="your_key_here"
+export VIRUSTOTAL_KEY="your_key_here"
+export SHODAN_KEY="your_key_here"
+```
+ 
+Or add them to a `.env` file in the project root:
+ 
+```
+ABUSEIPDB_KEY=your_key_here
+VIRUSTOTAL_KEY=your_key_here
+SHODAN_KEY=your_key_here
+```
   
