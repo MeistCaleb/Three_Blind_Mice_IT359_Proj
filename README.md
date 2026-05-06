@@ -6,6 +6,8 @@
 - Nathan Sigulas
 - Ryan Garland 
 
+Video Walkthrough in /docs/IT359.txt
+
 ## Features
  
 - **Geolocation** — Country, city, ISP, ASN, proxy/VPN/hosting detection via ip-api.com
